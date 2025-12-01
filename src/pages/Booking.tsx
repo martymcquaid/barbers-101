@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { useState, FormEvent } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Booking(){
   const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     setSubmitted(true);
   }
