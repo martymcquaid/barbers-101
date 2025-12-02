@@ -18,7 +18,7 @@ export default function NavBar() {
             </nav>
           </div>
           <div className="flex items-center">
-            <Link to="/booking" className="hidden md:inline-flex items-center px-4 py-2 bg-red-600 text-white rounded shadow hover:bg-amber-600" aria-label="Book Now">
+            <Link to="/booking" className="hidden md:inline-flex items-center px-4 py-2 bg-red-600 text-white rounded shadow hover:bg-red-700" aria-label="Book Now">
               Book Now
             </Link>
           </div>
