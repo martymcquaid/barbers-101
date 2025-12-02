@@ -6,7 +6,7 @@ export default function NavBar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
-            <span className="text-2xl font-semibold text-slate-800">Barber Heritage</span>
+            <span className="text-2xl font-semibold text-red-700">Barber Heritage</span>
             <nav className="hidden md:flex space-x-6">
               <Link to="/" className="text-sm font-medium text-slate-700 hover:text-slate-900">Home</Link>
               <Link to="/about" className="text-sm font-medium text-slate-700 hover:text-slate-900">About</Link>
